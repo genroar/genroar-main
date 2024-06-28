@@ -1,9 +1,13 @@
-import Image from "next/image";
+"use client"
 
-export default function Home() {
+import React from 'react'
+
+function index() {
   return (
     <div>
-      hello
+      <h1 className='pt-10 text-center'>Welcome to GenRoar Development team :)</h1>
     </div>
-  );
+  )
 }
+
+export default index
