@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.shopeimage {
+    z-index: 999;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-position: -59px -69.438px;
+    width: 451px;
+    height: 530.578px;
+    float: left;
+    cursor: crosshair;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url(/assits/images/shopebig.webp);
+    top: 0px;
+    left: 0px;
+    
+    unicode-bidi: isolate;
+
+}
