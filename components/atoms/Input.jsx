@@ -31,7 +31,7 @@ function Input({ variant, type, placeholder }) {
       break;
     case "five2":
       inputStyle =
-        "w-[418px] h-[25px] outline-none border-[2px] bg-black bg-opacity-[90px] border-none pb-[10px]  ";
+        "w-[365px] h-[45px] outline-none border-[1px] text-[14px] px-[20px] border-[#cacaca] py-[5px]  text-[#cacaca]  pb-[10px]  ";
       break;
     case "six":
       inputStyle =
