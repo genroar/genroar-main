@@ -18,7 +18,7 @@ const   Button = ({ href, children, variant, onClick }) => {
       break;
     case "footer-button":
       buttonStyle =
-        "bg-[#242424] block hover:bg-[#ff6a28] ease-in-out duration-300  h-[45px] cursor-pointer border-box pt-[11px]  w-[365px] rounded-[3px]  text-center  text-[13px] font-semibold  text-white";
+        "bg-[#242424] block hover:bg-[#ff6a28] ease-in-out duration-300 my-[10px]  h-[45px] cursor-pointer border-box pt-[11px]  w-[365px] rounded-[3px]  text-center  text-[13px] font-semibold  text-white";
       break;
     case "shop-proButton":
       buttonStyle =
@@ -38,7 +38,7 @@ const   Button = ({ href, children, variant, onClick }) => {
       break;
     case "rectangle":
       buttonStyle =
-        "bg-white h-[50px] border-2 cursor-pointer border-black border-opacity-10 text-center w-[150px]  flex items-center justify-center  text-[20px] font-medium text-buttonGray";
+        "bg-white h-[40px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28]  text-center w-[110px]  flex items-center justify-center  text-[13px] font-[500] text-[#242424] hover:bg-[#fd7e14] hover:text-white hover:boder-[#fd7e14] ease-in duration-300";
       break;
     case "oval":
       buttonStyle =

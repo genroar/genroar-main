@@ -1,24 +1,33 @@
 "use client"
 
-import Button from '@/components/atoms/Button'
-import RangeFilter from '@/components/atoms/RangeFilter'
-import ShopeImage from '@/components/atoms/ShopeImage'
-import AnchorTag from '@/components/atoms/anchorTag'
-import React from 'react'
+import Heading from "@/components/atoms/Heading";
+import AnchorTag from "@/components/atoms/anchorTag";
+import Headermid from "@/components/molecules/Headermid";
+import Home from "./home";
+import AboutData from "@/components/organisms/AboutData";
+import Counter from "@/components/organisms/Counter";
+import Container from "@/components/atoms/Container";
+import Progress from "@/components/organisms/Progress"
+import SearchHeader from "@/components/molecules/SearchHeader";
+import Headermain from "@/components/organisms/Headermain";
+import Ried from "@/components/molecules/Ried";
+import Footer from "@/components/organisms/Footer";
 
 function Index() {
   return (
     <div className=' ' >
-      {/* <h1>hello how are you</h1>
-      <AnchorTag variant='footertag' >anchorTag click me</AnchorTag>
-      <AnchorTag variant='discover' >anchorTag click me</AnchorTag>
-      <Button variant='footer-button' >click me</Button>
-      <Button variant='product-button' > + add to cart </Button>
-      <Button variant='filter' > filter </Button>
-      <RangeFilter />*/}
-      <ShopeImage/> 
+      
+      
+      <Headermain/>
+      {/* <Home /> */}
+      <AboutData/>
+      <Ried/>
+      <Counter/>
+      <Progress/>
+      <Footer/>
+    
     </div>
   )
 }
 
-  export default Index
+export default Index;
