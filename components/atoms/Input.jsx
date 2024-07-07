@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import "../../app/globals.css";
 import React from "react";
 
-function Input({ variant, type, placeholder }) {
+function Input({ variant, type, placeholder, id }) {
   let inputStyle = "";
   switch (variant) {
     case "primary":
@@ -45,9 +45,21 @@ function Input({ variant, type, placeholder }) {
       inputStyle =
         "w-[360px] h-[40px] rounded-[20px] p-[10px] outline-none border-2 border-opacity-10 border-gray-500  ";
       break;
+    case "ten":
+      inputStyle =
+        "w-[250px] h-[40px] outline-none border-[1px] text-[14px] px-[20px] border-[lightgray] py-[5px]  text-[#747474]  pb-[10px]  ";
+      break;
+    case "eleven":
+      inputStyle =
+        "w-[100%] h-[40px] outline-none border-[1px] text-[14px] px-[20px] border-[#ddd] py-[5px]  text-#747474  pb-[10px]  ";
+      break;
+    case "check":
+      inputStyle =
+        "w-[15px] h-[15px] p-[20px] outline-none border-[1px] border-#ddd  ";
+      break;
   }
 
-  return <input type={type} placeholder={placeholder} className={inputStyle} />;
+  return <input type={type} placeholder={placeholder} className={inputStyle} id={id} />;
 }
 
 Input.propTypes = {
