@@ -27,7 +27,11 @@ AnchorTag = ({ href, children, variant }) => {
             case "contact":
               anchorStyle = " text-[#ff6a28] hover:text-[#242424] text-[15px] cursor-pointer   font-[400] leading-[30px]"
               break;
+              
 
+            case "login Password":
+              anchorStyle= "text-[15px] text-[#ff6a28] leading-[39px] font-[400]"
+              break;
           
   }
 

@@ -26,7 +26,7 @@ const   Button = ({ href, children, variant, onClick }) => {
       break;
     case "filter":
       buttonStyle =
-        "bg-[#242424] hover:bg-[#ff6a28] h-[30px] cursor-pointer text-center w-[75px] ease-in-out duration-300 uppercase rounded-[40px] block pt-[5px] text-[13px] font-medium  text-white";
+        "bg-[#ff6a28] hover:bg-[#242424] h-[30px] py-[10px] cursor-pointer text-center w-[75px] ease-in-out duration-300 uppercase rounded-[40px] block pt-[5px] text-[13px] font-medium  text-white";
       break;
     case "tl-radius":
       buttonStyle =
