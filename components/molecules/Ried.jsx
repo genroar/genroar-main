@@ -8,7 +8,7 @@ function Ried() {
     return (
         <Container>
         
-            <div >
+            <div className='' >
                 <div className='top-[40px] relative '>
                     <Heading level='2'>Welcome To Reid Store!</Heading>
                 </div>

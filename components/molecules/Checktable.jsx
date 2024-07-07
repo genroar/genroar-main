@@ -54,7 +54,7 @@ function Checktable() {
                     </table>
                 </div>
                 <div className='flex gap-[10px] items-center mt-[40px]'>
-                    <Input variant='check'
+                    <Input variant='check1'
                         type='radio'
                         placeholder=''
                         id='radio'>
@@ -63,7 +63,7 @@ function Checktable() {
                     <label htmlFor="radio">Create an account?</label>
                 </div>
                 <div className='flex gap-[10px] items-center mt-[20px]'>
-                    <Input variant='check'
+                    <Input variant='check1'
                         type='radio'
                         placeholder=''
                         id='pay'>

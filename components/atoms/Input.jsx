@@ -27,7 +27,7 @@ function Input({ variant, type, placeholder, id }) {
       break;
     case "five":
       inputStyle =
-        "w-[418px] h-[25px] outline-none border-[2px] bg-black border-none p-[10px]  ";
+        "w-[100%] h-[42px] outline-none border-[1px] text-[15px] text-[#302e2e]  border-[#cacaca] p-[15px]  ";
       break;
     case "five2":
       inputStyle =
@@ -56,10 +56,13 @@ function Input({ variant, type, placeholder, id }) {
     case "check":
       inputStyle =
         "w-[15px] h-[15px] p-[20px] outline-none border-[1px] border-#ddd  ";
+    case "nine":
+      inputStyle =
+        "w-[442px] h-[40px] outline-none border-[1px] text-[14px] px-[20px] border-[#cacaca] py-[5px]  text-[#cacaca]  pb-[10px]  ";
       break;
   }
 
-  return <input type={type} placeholder={placeholder} className={inputStyle} id={id} />;
+  return (<input type={type} placeholder={placeholder} className={inputStyle} id={id} />);
 }
 
 Input.propTypes = {

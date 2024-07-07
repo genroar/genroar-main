@@ -17,7 +17,7 @@ const Progress = () => {
             <div className="w-[100%]"><ProgressBar targetProgress={90} duration={2000}  contant={"ecommerce theme"}  discount={"90%"} /></div> 
             <div className="w-[100%]"><ProgressBar targetProgress={70} duration={2000}  contant={"Typhography"}  discount={"70%"} /></div> 
             <div className="w-[100%]"><ProgressBar targetProgress={80} duration={2000}  contant={"Branding"}  discount={"80%"} /></div> 
-             {/* 75% progress over 2 seconds */}
+            
             </div>
 
             

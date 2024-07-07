@@ -9,10 +9,9 @@ function Headermid() {
         <div className='flex  list-none items-center gap-[60px]  '>
             <li><AnchorTag variant='Header' href='/'>Home</AnchorTag></li>
             <li><AnchorTag variant='Header' href='/'>Shop</AnchorTag></li>
-            <li><AnchorTag variant='Header' href='/'>Blog</AnchorTag></li>
             <li><AnchorTag variant='Header' href='/'>Pages</AnchorTag></li>
             <li><AnchorTag variant='Header' href='/about'>About US</AnchorTag></li>
-            <li><AnchorTag variant='Header' href='/'>Contact Us</AnchorTag></li>
+            <li><AnchorTag variant='Header' href='/contact'>Contact Us</AnchorTag></li>
         </div>
         <div className=''>
             <Paragraph>Call Free Support: <AnchorTag variant='success'>01234567890</AnchorTag></Paragraph>

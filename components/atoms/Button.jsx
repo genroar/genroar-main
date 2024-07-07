@@ -26,7 +26,7 @@ const   Button = ({ href, children, variant, onClick }) => {
       break;
     case "filter":
       buttonStyle =
-        "bg-[#242424] hover:bg-[#ff6a28] h-[30px] cursor-pointer text-center w-[75px] ease-in-out duration-300 uppercase rounded-[40px] block pt-[5px] text-[13px] font-medium  text-white";
+        "bg-[#ff6a28] hover:bg-[#242424] h-[30px] py-[10px] cursor-pointer text-center w-[75px] ease-in-out duration-300 uppercase rounded-[40px] block pt-[5px] text-[13px] font-medium  text-white";
       break;
     case "tl-radius":
       buttonStyle =
@@ -70,7 +70,7 @@ const   Button = ({ href, children, variant, onClick }) => {
       break;
     case "contact":
       buttonStyle =
-        "bg-buttonGray h-[40px] cursor-pointer  text-center w-[140px] rounded-[40px] py-[7px]  text-white";
+        "bg-[#ff6a28] h-[40px] hover:bg-[#242424] hpver:text-white cursor-pointer font-[500] tex-[12px] text-center w-[140px] py-[12px] px-[30px]  text-white";
       break;
     case "aboutus":
       buttonStyle =

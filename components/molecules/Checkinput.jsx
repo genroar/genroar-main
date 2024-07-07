@@ -120,7 +120,7 @@ function Checkinput(props) {
                         </Input></div>
                 </div>
                 <div className='flex gap-[10px] items-center'>
-                    <Input variant='check'
+                    <Input variant='check1'
                         type='checkbox'
                         placeholder='crate'
                         id='check'>
@@ -129,7 +129,7 @@ function Checkinput(props) {
                     <label htmlFor="check">Create an account?</label>
                 </div>
                 <div className='flex gap-[10px] items-center'>
-                    <Input variant='check'
+                    <Input variant='check1'
                         type='checkbox'
                         placeholder='crate'
                         id='ship'>
