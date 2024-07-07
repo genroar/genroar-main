@@ -21,6 +21,25 @@ const Heading = ({ level, children }) => {
         return "text-[13px] leading-[24px] text-normal text-[#747474]";
       case "8":
         return "text-[18px] leading-[20px] text-normal text-[#747474]";
+      case "9":
+        return "text-[15px] leading-[30px] text-normal text-[#747474]";
+      case "10":
+        return "text-[40px] leading-[20px] text-normal text-[#242424]";
+      case "11":
+        return "text-[25px] leading-[30px] text-normal text-[#242424]";
+
+      case "12":
+        return "text-[14px] leading-[24px] font-[400] text-[#242424]";
+      case "13":
+        return "text-[18px] leading-[18px] font-[700] text-[#242424]";
+      case "14": //you can use this style for color #ff6a28 ok:)
+        return "text-[13px] leading-[24px] font-[500] text-[#ff6a28]";
+      case "15"://this style for only 4o4 page
+        return "text-[200px] leading-[160px] font-[700] text-[#ff6a28]";
+      case "16":
+        return "text-[17px] leading-[26px] font-[400] text-[#747474]";
+      case "":
+        return "text-[18px] leading-[18px] font-[700] text-[#242424]";
 
       default:
         return "text-lg";

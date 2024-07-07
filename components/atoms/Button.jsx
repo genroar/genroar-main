@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "@/app/globals.css"
 import PropTypes from "prop-types";
 
-const   Button = ({ href, children, variant, onClick }) => {
+const Button = ({ href, children, variant, onClick }) => {
   const [activeButton, setActiveButton] = useState(null);
 
   const handleButtonClick = (buttonName) => {
@@ -22,7 +22,7 @@ const   Button = ({ href, children, variant, onClick }) => {
       break;
     case "shop-proButton":
       buttonStyle =
-        "bg-customgrays h-[40px] cursor-pointer  text-center w-[240px] rounded-[3px] py-[7px]  text-[15px] font-medium text-";
+        "bg-white h-[40px] cursor-pointer block absolute bottom-[17px] ml-[10px] text-center w-[240px] rounded-[3px] py-[7px]  text-[15px] font-medium hover:text-[#ff6a28] text-[#747474] ";
       break;
     case "filter":
       buttonStyle =
@@ -80,10 +80,25 @@ const   Button = ({ href, children, variant, onClick }) => {
       buttonStyle =
         "bg-buttonGray h-[41px] sm:w-[180px]  cursor-pointer text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
       break;
-      case "submit1":
-        buttonStyle =
-          "bg-buttonGray h-[41px]  cursor-pointer text-center xl:w-[235px] lg:w-[235px] md:w-[235px] sm:w-[full] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
-        break;
+    case "submit1":
+      buttonStyle =
+        "bg-buttonGray h-[41px]  cursor-pointer text-center xl:w-[235px] lg:w-[235px] md:w-[235px] sm:w-[full] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
+      break;
+    case "MyAccount"://this button style you can use in myaccount all button in side div :)
+      buttonStyle =
+        "w-full bg-[#242424] py-[5px] px-[10px] flex items-start text-white cursor-pointer rounded-[3px] hover:bg-[#ff6a28] transition 0.3s ease-in";
+      break;
+    case "404"://text lekhtay jaen center khod he ho jay ga
+      buttonStyle =
+        "px-[20px] py-[10px] bg-[#ff6a28] text-white font-[600] hover:bg-[#242424] transition 0.3s ease-in";
+      break;
+    case "product":
+      buttonStyle =
+        "w-[150px] py-[5px] absolute  cursor-pointer bottom-[10px] bg-white font-[600] hover:text-[#ff6a28] ml-[20px] flex items-center justify-center transition 0.3s ease-in";
+      break;
+
+
+
     default:
       buttonStyle = "";
       break;
@@ -91,21 +106,21 @@ const   Button = ({ href, children, variant, onClick }) => {
 
   return (
     <a
-    className={`${buttonStyle}`}
-    onClick={() => {
-      handleButtonClick(variant);
-      onClick && onClick();
-    }}
-    href={href}
-  >
-    {children}
-  </a>
+      className={`${buttonStyle}`}
+      onClick={() => {
+        handleButtonClick(variant);
+        onClick && onClick();
+      }}
+      href={href}
+    >
+      {children}
+    </a>
   );
 };
 
 Button.propTypes = {
   href: PropTypes.string.isRequired,
-    children: PropTypes.string.isRequired,
+  children: PropTypes.string.isRequired,
 };
 
 export default Button;

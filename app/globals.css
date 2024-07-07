@@ -21,3 +21,10 @@
     unicode-bidi: isolate;
 
 }
+.shop:hover .shop-text {
+    color: rgb(255,106,40);
+}
+.shop:hover .circle{
+    background-color: rgb(255,106,40);
+    color: white;
+}
