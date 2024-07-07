@@ -1,13 +1,4 @@
-"use client"
-
-
-import AboutData from "@/components/organisms/AboutData";
-import Counter from "@/components/organisms/Counter";
-import Progress from "@/components/organisms/Progress"
 import Headermain from "@/components/organisms/Headermain";
-import Ried from "@/components/molecules/Ried";
-
-import Footer from "@/components/organisms/Footer";
 
 function Index() {
   return (
@@ -15,11 +6,7 @@ function Index() {
       
       
       <Headermain/>
-      <AboutData/>
-      <Ried/>
-      <Counter/>
-      <Progress/>
-      <Footer/>
+
     
     </div>
   )

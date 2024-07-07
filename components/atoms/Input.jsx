@@ -45,6 +45,10 @@ function Input({ variant, type, placeholder }) {
       inputStyle =
         "w-[360px] h-[40px] rounded-[20px] p-[10px] outline-none border-2 border-opacity-10 border-gray-500  ";
       break;
+      case "nine":
+      inputStyle =
+        "w-[442px] h-[40px] outline-none border-[1px] text-[14px] px-[20px] border-[#cacaca] py-[5px]  text-[#cacaca]  pb-[10px]  ";
+      break;
   }
 
   return <input type={type} placeholder={placeholder} className={inputStyle} />;
