@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Label = ({ children, htmlFor }) => {
-  const labelStyle = "text-secondary";
+  const labelStyle = "text-secondary ";
 
   return (
     <label htmlFor={htmlFor} className={labelStyle}>

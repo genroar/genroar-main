@@ -24,6 +24,10 @@ AnchorTag = ({ href, children, variant }) => {
           case "Header":
             anchorStyle= "leading-[50px] hover:text-[#ff6a28] cursor-pointer    text-[#242424] text-[13px] font-[500]"
             break;
+            case "contact":
+              anchorStyle = " text-[#ff6a28] hover:text-[#242424] text-[15px] cursor-pointer   font-[400] leading-[30px]"
+              break;
+
           
   }
 

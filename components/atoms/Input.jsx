@@ -27,7 +27,7 @@ function Input({ variant, type, placeholder }) {
       break;
     case "five":
       inputStyle =
-        "w-[418px] h-[25px] outline-none border-[2px] bg-black border-none p-[10px]  ";
+        "w-[100%] h-[42px] outline-none border-[1px] text-[15px] text-[#302e2e]  border-[#cacaca] p-[15px]  ";
       break;
     case "five2":
       inputStyle =
