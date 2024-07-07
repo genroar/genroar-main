@@ -9,16 +9,16 @@ import Container from '../atoms/Container'
 function Headermain() {
   return (
     <div>
-    <Container>
+      <Container>
         <div className='flex justify-between pt-[3%] items-center'>
-        <Logo href='' src='/assits/images/logo.webp'/>
-        <SearchHeader/>
-        <Headerlogin/>
-        <Item/>
-    </div>
-        <Headermid/>
-    </Container>
-        <hr />
+          <Logo href='' src='/assits/images/logo.webp' />
+          <SearchHeader />
+          <Headerlogin />
+          <Item />
+        </div>
+        <Headermid />
+      </Container>
+      <hr />
     </div>
   )
 }
