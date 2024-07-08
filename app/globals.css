@@ -21,3 +21,9 @@
     unicode-bidi: isolate;
 
 }
+
+li:hover ul.dropdown{
+    visibility: visible;
+    opacity: 1;
+    
+}
