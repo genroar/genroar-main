@@ -9,9 +9,9 @@ import Ried from "@/components/molecules/Ried";
 
 import Footer from "@/components/organisms/Footer";
 
-function Index() {
+function About() {
   return (
-    <div className=' ' >
+    <div className='' >
       
       
       <Headermain/>
@@ -25,4 +25,4 @@ function Index() {
   )
 }
 
-export default Index;
+export default About;
