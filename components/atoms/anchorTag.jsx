@@ -20,7 +20,7 @@ const AnchorTag = ({ href, children, variant }) => {
       anchorStyle = "text-[12px] hover:text-[#ff6a28] font-[400] text-[#747474] cursor-pointer";
       break;
     case "Header":
-      anchorStyle = "leading-[50px] hover:text-[#ff6a28] cursor-pointer text-[#242424] text-[13px] font-[500]";
+      anchorStyle = "flex items-center leading-[50px] hover:text-[#ff6a28] cursor-pointer text-[#242424] text-[13px] font-[500]";
       break;
     case "Headerh":
       anchorStyle = "leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-[500]";
