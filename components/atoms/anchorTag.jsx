@@ -28,6 +28,9 @@ const AnchorTag = ({ href, children, variant }) => {
     case "login Password":
       anchorStyle = "text-[15px] text-[#ff6a28] leading-[39px] font-[400]";
       break;
+      case "homeBanner":
+        anchorStyle = "text-[16px] border-b-2 border-b-[#242424] text-[#242424] font-[400] hover:text-[#ff6a28] hover:border-[#ff6a28] transition-all";
+        break;  
     default:
       anchorStyle = "";
   }
