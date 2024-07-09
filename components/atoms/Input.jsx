@@ -3,6 +3,7 @@ import "../../app/globals.css";
 import React from "react";
 
 function Input({ variant, value , onChange ,type, placeholder }) {
+function Input({ variant, type, placeholder, id, name }) {
   let inputStyle = "";
   switch (variant) {
     case "primary":
@@ -45,7 +46,18 @@ function Input({ variant, value , onChange ,type, placeholder }) {
       inputStyle =
         "w-[360px] h-[40px] rounded-[20px] p-[10px] outline-none border-2 border-opacity-10 border-gray-500  ";
       break;
-      case "nine":
+    case "ten":
+      inputStyle =
+        "w-[265px] h-[40px] outline-none border-[1px] text-[14px] px-[20px] border-[lightgray] py-[5px]  text-[#747474]  pb-[10px]  ";
+      break;
+    case "eleven":
+      inputStyle =
+        "w-[100%] h-[40px] outline-none border-[1px] text-[14px] px-[20px] border-[#ddd] py-[5px]  text-#747474  pb-[10px]  ";
+      break;
+    case "check":
+      inputStyle =
+        "w-[15px] h-[15px] p-[20px] outline-none border-[1px] border-#ddd  ";
+    case "nine":
       inputStyle =
         "w-[442px] h-[40px] outline-none border-[1px] text-[14px] px-[20px] border-[#cacaca] py-[5px]  text-[#cacaca]  pb-[10px]  ";
       break;

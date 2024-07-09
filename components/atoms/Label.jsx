@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 
-const Label = ({ children, htmlFor }) => {
-  const labelStyle = "text-secondary ";
+const Label = ({ children, htmlFor, labelStyle }) => {
+
+
 
   return (
     <label htmlFor={htmlFor} className={labelStyle}>
@@ -9,6 +10,7 @@ const Label = ({ children, htmlFor }) => {
     </label>
   );
 };
+
 
 Label.propTypes = {
   htmlFor: PropTypes.string.isRequired,

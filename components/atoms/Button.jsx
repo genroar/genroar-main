@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import "@/app/globals.css"
 import PropTypes from "prop-types";
@@ -40,6 +42,14 @@ const   Button = ({ href, children, variant, type , onClick }) => {
       buttonStyle =
         "bg-white h-[40px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28]  text-center w-[110px]  flex items-center justify-center  text-[13px] font-[500] text-[#242424] hover:bg-[#fd7e14] hover:text-white hover:boder-[#fd7e14] ease-in duration-300";
       break;
+    case "rectangle-4":
+      buttonStyle =
+        "h-[40px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28]  text-center w-[90px]  flex items-center justify-center  text-[13px] font-[500] text-[#242424] bg-[black] text-white hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300";
+      break;
+    case "rectangle-5":
+      buttonStyle =
+        "h-[40px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28]  text-center w-[110px]  flex items-center justify-center  text-[14px] font-[500] text-[white] bg-[black] text-white hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300";
+      break;
     case "oval":
       buttonStyle =
         "bg-white h-[40px] border-[1px] cursor-pointer border-black border-opacity-[10px] text-center w-[150px] rounded-[40px]  pt-[6px] text-[16px] font-normal  text-buttonGray";
@@ -80,10 +90,10 @@ const   Button = ({ href, children, variant, type , onClick }) => {
       buttonStyle =
         "bg-buttonGray h-[41px] sm:w-[180px]  cursor-pointer text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
       break;
-      case "submit1":
-        buttonStyle =
-          "bg-buttonGray h-[41px]  cursor-pointer text-center xl:w-[235px] lg:w-[235px] md:w-[235px] sm:w-[full] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
-        break;
+    case "submit1":
+      buttonStyle =
+        "bg-buttonGray h-[41px]  cursor-pointer text-center xl:w-[235px] lg:w-[235px] md:w-[235px] sm:w-[full] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
+      break;
     default:
       buttonStyle = "";
       break;
@@ -91,21 +101,21 @@ const   Button = ({ href, children, variant, type , onClick }) => {
 
   return (
     <a
-    className={`${buttonStyle}`}
-    onClick={() => {
-      handleButtonClick(variant);
-      onClick && onClick();
-    }}
-    href={href}
-  >
-    {children}
-  </a>
+      className={`${buttonStyle}`}
+      onClick={() => {
+        handleButtonClick(variant);
+        onClick && onClick();
+      }}
+      href={href}
+    >
+      {children}
+    </a>
   );
 };
 
 Button.propTypes = {
   href: PropTypes.string.isRequired,
-    children: PropTypes.string.isRequired,
+  children: PropTypes.string.isRequired,
 };
 
 export default Button;
