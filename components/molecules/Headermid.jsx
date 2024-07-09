@@ -65,6 +65,7 @@ function Headermid() {
             <li><AnchorTag variant='Headerh' href='/'>Services</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Login</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>My Account</AnchorTag></li>
+            <li><AnchorTag variant='Headerh' href='/'>Wishlist</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Error 404</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Compare</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Privacy Policy</AnchorTag></li>
