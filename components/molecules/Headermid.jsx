@@ -28,7 +28,7 @@ function Headermid() {
                   <li><AnchorTag href="/" variant="success" >Portfolio</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >Portfolio Details</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >Cart</AnchorTag></li>
-                  <li><AnchorTag href="/" variant="success" >CheckOut</AnchorTag></li>
+                  <li><AnchorTag href="/cart" variant="success" >CheckOut</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >My Account</AnchorTag></li>
                 </ul>
               </div>
@@ -65,9 +65,9 @@ function Headermid() {
             <li><AnchorTag variant='Headerh' href='/'>Services</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Login</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>My Account</AnchorTag></li>
-            <li><AnchorTag variant='Headerh' href='/'>Error 404</AnchorTag></li>
+            <li><AnchorTag variant='Headerh' href='/error'>Error 404</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Compare</AnchorTag></li>
-            <li><AnchorTag variant='Headerh' href='/'>Privacy Policy</AnchorTag></li>
+            <li><AnchorTag variant='Headerh' href='/privacy'>Privacy Policy</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Coming Soon</AnchorTag></li>
           </ul>
         </li>
