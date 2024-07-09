@@ -31,7 +31,7 @@ function Errorpage() {
                     </div>
                 </div>
                 <div className="px-[10px] py-[8px] text-white text-center mt-[20px] bg-[#ff6a28] hover:bg-[black] hover:cursor-pointer transform transition 0.7s ease-in uppercase font-semibold text-[15px] leading-30px">
-                    <AnchorTag href='/privacy'>Back to Home Page</AnchorTag>
+                    <AnchorTag href='/about'>Back to Home Page</AnchorTag>
                 </div>
             </div>
         </Container>
