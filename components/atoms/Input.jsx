@@ -2,8 +2,7 @@ import PropTypes from "prop-types";
 import "../../app/globals.css";
 import React from "react";
 
-function Input({ variant, value , onChange ,type, placeholder }) {
-function Input({ variant, type, placeholder, id, name }) {
+function Input({ variant, value , onChange ,type,id, name ,placeholder }) {
   let inputStyle = "";
   switch (variant) {
     case "primary":
