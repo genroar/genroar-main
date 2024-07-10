@@ -1,12 +1,12 @@
 "use client"
 
-import New from "@/components/atoms/New"
+import ShopSibebar from "@/components/organisms/ShopSibebar"
+import Shop from "./shop"
 
 function Index() {
   return (
     <div className=' ' >
-      <h1>hello how are you</h1>
-      <New />
+        <Shop />
     </div>
   )
 }

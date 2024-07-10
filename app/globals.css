@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
 .shopeimage {
     z-index: 999;
     overflow: hidden;
@@ -28,3 +35,32 @@
     background-color: rgb(255,106,40);
     color: white;
 }
+
+.product-catagory:hover h3   {
+    color: #ff6a28;
+    transition: 0.2s;
+}
+.product-catagory:hover .circle   {
+    color: white;
+    transition: 0.2s;
+    background-color: #ff6a28;
+}
+.grid.flex.w-\[100\%\].h-\[60px\].border.px-\[15px\].mt-\[16px\].flex.items-center.justify-between {
+    display: flex;
+}
+
+
+
+ul.ant-pagination.css-dev-only-do-not-override-98ntnt {
+    display: flex;
+    width: 100%;
+    border: 1px solid #dbdada;
+    justify-content: center;
+    padding: 7px;
+}
+
+
+
+
+
+
