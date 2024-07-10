@@ -42,6 +42,10 @@ const Button = ({ href, children, variant, onClick }) => {
       buttonStyle =
         "bg-white h-[40px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28]  text-center w-[110px]  flex items-center justify-center  text-[13px] font-[500] text-[#242424] hover:bg-[#fd7e14] hover:text-white hover:boder-[#fd7e14] ease-in duration-300";
       break;
+      case "rectangle-0":
+      buttonStyle =
+        "bg-[#ff6a28] h-[40px]  uppercase cursor-pointer   text-center w-[110px]  flex items-center justify-center  text-[13px] font-[500] text-[#242424] text-white  ease-in duration-300";
+      break;
     case "rectangle-4":
       buttonStyle =
         "h-[40px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28]  text-center w-[90px]  flex items-center justify-center  text-[13px] font-[500] text-[#242424] bg-[black] text-white hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300";
