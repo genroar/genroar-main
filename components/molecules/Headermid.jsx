@@ -13,7 +13,7 @@ function Headermid() {
         <li><AnchorTag variant='Header' href='/'>Pages<IoIosArrowDown /></AnchorTag>
           <ul className='dropdown border absolute bg-white opacity-5 z-[9999] invisible py-[10px] pr-[80px] pl-[30px]'>
             <li><AnchorTag variant='Headerh' href='/about'> About Us</AnchorTag></li>
-            <li><AnchorTag variant='Headerh' href='/'>Services</AnchorTag></li>
+            <li><AnchorTag variant='Headerh' href='/serivces'>Services</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/login'>Login</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>My Account</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/error'>Error 404</AnchorTag></li>
