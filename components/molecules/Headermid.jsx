@@ -25,7 +25,7 @@ function Headermid() {
               <div className="">
                 <ul className="pr-[120px] border-r grid gap-[8px] ml-[40px]  ">
                   <li className=" text-[15px]  "><AnchorTag href="/" ><b>Other Pages</b></AnchorTag></li>
-                  <li><AnchorTag href="/" variant="success" >Portfolio</AnchorTag></li>
+                  <li><AnchorTag href="/portfoliomain" variant="success" >Portfolio</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >Portfolio Details</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >Cart</AnchorTag></li>
                   <li><AnchorTag href="/cart" variant="success" >CheckOut</AnchorTag></li>
