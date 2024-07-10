@@ -27,8 +27,8 @@ function Headermid() {
                   <li className=" text-[15px]  "><AnchorTag href="/" ><b>Other Pages</b></AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >Portfolio</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >Portfolio Details</AnchorTag></li>
-                  <li><AnchorTag href="/" variant="success" >Cart</AnchorTag></li>
-                  <li><AnchorTag href="/cart" variant="success" >CheckOut</AnchorTag></li>
+                  <li><AnchorTag href="/cart" variant="success" >Cart</AnchorTag></li>
+                  <li><AnchorTag href="/check" variant="success" >CheckOut</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >My Account</AnchorTag></li>
                 </ul>
               </div>
@@ -64,7 +64,7 @@ function Headermid() {
             <li><AnchorTag variant='Headerh' href='/'> About Us</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Services</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Login</AnchorTag></li>
-            <li><AnchorTag variant='Headerh' href='/'>My Account</AnchorTag></li>
+            <li><AnchorTag variant='Headerh' href='/account'>My Account</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/error'>Error 404</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Compare</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/privacy'>Privacy Policy</AnchorTag></li>

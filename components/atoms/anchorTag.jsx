@@ -28,9 +28,16 @@ const AnchorTag = ({ href, children, variant }) => {
     case "login Password":
       anchorStyle = "text-[15px] text-[#ff6a28] leading-[39px] font-[400]";
       break;
-      case "homeBanner":
-        anchorStyle = "text-[16px] border-b-2 border-b-[#242424] text-[#242424] font-[400] hover:text-[#ff6a28] hover:border-[#ff6a28] transition-all";
-        break;  
+    case "homeBanner":
+      anchorStyle = "text-[16px] border-b-2 border-b-[#242424] text-[#242424] font-[400] hover:text-[#ff6a28] hover:border-[#ff6a28] transition-all";
+      break;
+    case "MyAccount":
+      anchorStyle = "text-[16px] border-b-2 border-b-[#242424] text-[#242424] font-[400] hover:text-[#ff6a28] hover:border-[#ff6a28] transition-all";
+      break;
+    case "CheckCart":
+      anchorStyle = "w-full py-[10px] justify-center flex text-[13px] font-[400] bg-[#f1f1f1] border-[1px] border-[#747474] rounded-[7px] hover:text-white hover:bg-[#242424] transition-[0.5s]";
+      break;
+
     default:
       anchorStyle = "";
   }
