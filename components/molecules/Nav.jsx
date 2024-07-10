@@ -22,38 +22,38 @@ const Nav = () => {
         <nav className="w-[250px] text-white">
             <ul className="flex flex-col gap-[5px] list-none">
                 <NavItem
-                    href="/dashboardpage"
-                    isActive={activeItem === '/dashboardpage' || router.pathname === '/'}
-                    onClick={() => handleItemClick('/dashboardpage')}
+                    href="/myaccount"
+                    isActive={activeItem === '/myaccount' || router.pathname === '/'}
+                    onClick={() => handleItemClick('/myaccount')}
                     className='bg-orange-500'
                 >
                     Dashboard
                 </NavItem>
                 <NavItem
-                    href="/orderpage"
-                    isActive={activeItem === '/orderpage'}
-                    onClick={() => handleItemClick('/orderpage')}
+                    href="/order"
+                    isActive={activeItem === '/order'}
+                    onClick={() => handleItemClick('/order')}
                 >
                     Orders
                 </NavItem>
                 <NavItem
-                    href="/downloadpage"
-                    isActive={activeItem === '/downloadpage'}
-                    onClick={() => handleItemClick('/downloadpage')}
+                    href="/download"
+                    isActive={activeItem === '/download'}
+                    onClick={() => handleItemClick('/download')}
                 >
                     Downloads
                 </NavItem>
                 <NavItem
-                    href="/addressepage"
-                    isActive={activeItem === '/addressepage'}
-                    onClick={() => handleItemClick('/addressepage')}
+                    href="/address"
+                    isActive={activeItem === '/address'}
+                    onClick={() => handleItemClick('/address')}
                 >
                     Addresses
                 </NavItem>
                 <NavItem
-                    href="/accountpage"
-                    isActive={activeItem === '/accountpage'}
-                    onClick={() => handleItemClick('/accountpage')}
+                    href="/account"
+                    isActive={activeItem === '/account'}
+                    onClick={() => handleItemClick('/account')}
                 >
                     Account Details
                 </NavItem>

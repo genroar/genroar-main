@@ -1,20 +1,20 @@
 import AccountData from "@/components/organisms/AccountData";
-import AccountPage from "@/components/organisms/AccountPage";
+import DownloadPage from "@/components/organisms/Downloadpage";
 import Footer from "@/components/organisms/Footer";
 import Headermain from "@/components/organisms/Headermain";
 import React from 'react'
 
-function account() {
+function download() {
   return (
       <div>
                
           <Headermain />
-          <AccountData />
-          <AccountPage/>
+      <AccountData />
+      <DownloadPage/>
           <Footer/>
 
     </div>
   )
 }
 
-export default account
+export default download

@@ -1,8 +1,5 @@
 // pages/orders.js
 import DashboardLayout from "@/components/molecules/Dashboardlayout";
-import AccountData from "@/components/organisms/AccountData";
-import Footer from "@/components/organisms/Footer";
-import Headermain from "@/components/organisms/Headermain";
 
 const AddressPage = () => {
     return (

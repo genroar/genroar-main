@@ -1,20 +1,22 @@
+import OrdersPage from '@/components/molecules/orderpage'
 import AccountData from "@/components/organisms/AccountData";
-import AccountPage from "@/components/organisms/AccountPage";
+import Dashboard from "@/components/organisms/Dashboard";
 import Footer from "@/components/organisms/Footer";
 import Headermain from "@/components/organisms/Headermain";
 import React from 'react'
 
-function account() {
+function order() {
   return (
       <div>
                
           <Headermain />
           <AccountData />
-          <AccountPage/>
+          <OrdersPage/>
+
           <Footer/>
 
     </div>
   )
 }
 
-export default account
+export default order

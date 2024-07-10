@@ -37,6 +37,9 @@ const AnchorTag = ({ href, children, variant }) => {
     case "CheckCart":
       anchorStyle = "w-full py-[10px] justify-center flex text-[13px] font-[400] bg-[#f1f1f1] border-[1px] border-[#747474] rounded-[7px] hover:text-white hover:bg-[#242424] transition-[0.5s]";
       break;
+    case "check":
+      anchorStyle = "leading-[30px] text-[#ff6a28] cursor-pointer text-[13px] font-[400]"
+      break;
 
     default:
       anchorStyle = "";
