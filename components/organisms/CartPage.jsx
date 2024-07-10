@@ -25,7 +25,7 @@ const CartPage = () => {
 
     return (
         <Container>
-            <div className="container p-4 mx-auto">
+            <div className="container mt-[50px]">
                 <table className="min-w-full bg-white border border-gray-300">
                     <thead>
                         <tr >
