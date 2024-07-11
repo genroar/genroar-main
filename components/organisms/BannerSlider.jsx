@@ -1,6 +1,9 @@
+"use client";
+
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -11,7 +14,7 @@ import 'swiper/css/pagination';
 
 
 // import required modules
-import { Autoplay ,EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 
 export default function BannerSlider() {
   return (
@@ -21,13 +24,13 @@ export default function BannerSlider() {
         effect={'fade'}
         navigation={true}
         autoplay={{
-            delay: 4000,
-            disableOnInteraction: false,
-          }}
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
-        modules={[Autoplay,EffectFade, Navigation, Pagination]}
+        modules={[Autoplay, EffectFade, Navigation, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide><img src="/assits/images/slider1.jpg" alt="Slider 1" /></SwiperSlide>
