@@ -5,15 +5,15 @@ import React from "react";
 function Input({ variant, type, placeholder, id, name }) {
   let inputStyle = "";
   switch (variant) {
-    case "primary":
+    case "fotrinput"://this style can use in search,usename,password,:)
       inputStyle =
-        "w-[360px] h-[41px] rounded-[10px] p-[10px] outline-none border-2 border-opacity-10 border-gray-500  ";
+        "w-full p-[10px] text-[#747474] text-sm border-[1px] border-[#747474]  ";
       break;
-    case "secondary":
+    case "search"://404 search page k leay
       inputStyle =
-        "h-[41px] w-full rounded-[40px] p-[10px]  outline-none border-2 border-opacity-10 border-gray-500  ";
+        "w-[450px] p-[10px] text-[#747474] text-sm border-[1px] border-[#747474] ";
       break;
-    case "third":
+    case "":
       inputStyle =
         "w-[780px] h-[41px] rounded-[40px] outline-none p-[10px]  border-2 border-opacity-10 border-gray-500  ";
       break;

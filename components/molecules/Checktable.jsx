@@ -96,7 +96,7 @@ function Checktable() {
                     )}
                 </div>
 
-                <div className="px-[2px] py-[10px] text-white w-[40%] text-center mt-[20px] bg-[#ff6a28] hover:bg-[black] hover:cursor-pointer transform transition 0.7s ease-in uppercase font-semibold text-[18px] leading-30px">
+                <div className="px-[2px] py-[10px] text-white w-[40%] text-center transition duration-[0.5s] ease-in mt-[20px] bg-[#ff6a28] hover:bg-[black] hover:cursor-pointer uppercase font-semibold text-[18px] leading-30px">
                     <button type="submit">Proceed to PayPal</button>
                 </div>
             </div>
