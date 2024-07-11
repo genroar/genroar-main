@@ -41,7 +41,7 @@ function CartButton() {
               </button>
             </div>
           </div>
-          <div className="su  flex flex-col items-start justify-start ">
+          <div className="flex flex-col items-start justify-start su ">
             <div className="text-[#333]  flex items-center mx-[10px]">
               <h2 className="text-[14px]">Sub-total :</h2>
               <h2 className=" pl-[100px] text-[14px] font-[600] ">$150.00</h2>

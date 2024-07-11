@@ -14,7 +14,7 @@ function CartData() {
                     <div className='flex gap-[5px]'>
                         <AnchorTag variant="success">Home</AnchorTag>
                         <span className='text-[#999] text-[12px]'>/</span>
-                        <Span>Checkout</Span>
+                        <Span>Cart</Span>
                     </div>
                 </div>
             </div>

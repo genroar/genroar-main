@@ -24,7 +24,7 @@ const   Button = ({ href, children, variant, type , onClick }) => {
       break;
     case "shop-proButton":
       buttonStyle =
-        "bg-customgrays h-[40px] cursor-pointer  text-center w-[240px] rounded-[3px] py-[7px]  text-[15px] font-medium text-";
+        "bg-white h-[40px] flex justify-center items-center cursor-pointer block absolute bottom-[17px] ml-[10pxa] text-center w-[240px] rounded-[3px] py-[7px]  text-[15px] font-medium hover:text-[#ff6a28] text-[#747474] ";
       break;
     case "filter":
       buttonStyle =
@@ -41,6 +41,10 @@ const   Button = ({ href, children, variant, type , onClick }) => {
     case "rectangle":
       buttonStyle =
         "bg-white h-[40px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28]  text-center w-[110px]  flex items-center justify-center  text-[13px] font-[500] text-[#242424] hover:bg-[#fd7e14] hover:text-white hover:boder-[#fd7e14] ease-in duration-300";
+      break;
+    case "rectangle-0":
+      buttonStyle =
+        "bg-[#ff6a28] h-[40px]  uppercase cursor-pointer   text-center w-[110px]  flex items-center justify-center  text-[13px] font-[500] text-[#242424] text-white  ease-in duration-300";
       break;
     case "rectangle-4":
       buttonStyle =
@@ -94,6 +98,25 @@ const   Button = ({ href, children, variant, type , onClick }) => {
       buttonStyle =
         "bg-buttonGray h-[41px]  cursor-pointer text-center xl:w-[235px] lg:w-[235px] md:w-[235px] sm:w-[full] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
       break;
+    case "MyAccount"://this button style you can use in myaccount all button in side div :)
+      buttonStyle =
+        "w-full bg-[#242424] py-[5px] px-[10px] flex items-start text-white cursor-pointer rounded-[3px] hover:bg-[#ff6a28] transition 0.3s ease-in";
+      break;
+    case "404"://text lekhtay jaen center khod he ho jay ga
+      buttonStyle =
+        "px-[20px] py-[10px] bg-[#ff6a28] text-white font-[600] hover:bg-[#242424] transition 0.3s ease-in";
+      break;
+    case "product":
+      buttonStyle =
+        "w-[150px] py-[5px] absolute  cursor-pointer bottom-[10px] bg-white font-[600] hover:text-[#ff6a28] ml-[20px] flex items-center justify-center transition 0.3s ease-in";
+      break;
+    case "shopnext":
+      buttonStyle =
+        "w-[30px] h-[30px] text-white flex items-center justify-center transition 0.3s ease-in";
+      break;
+
+
+
     default:
       buttonStyle = "";
       break;

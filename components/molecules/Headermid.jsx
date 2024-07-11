@@ -27,8 +27,8 @@ function Headermid() {
                   <li className=" text-[15px]  "><AnchorTag href="/" ><b>Other Pages</b></AnchorTag></li>
                   <li><AnchorTag href="/portfoliomain" variant="success" >Portfolio</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >Portfolio Details</AnchorTag></li>
-                  <li><AnchorTag href="/" variant="success" >Cart</AnchorTag></li>
-                  <li><AnchorTag href="/cart" variant="success" >CheckOut</AnchorTag></li>
+                  <li><AnchorTag href="/cart" variant="success" >Cart</AnchorTag></li>
+                  <li><AnchorTag href="/check" variant="success" >CheckOut</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >My Account</AnchorTag></li>
                 </ul>
               </div>
@@ -60,11 +60,11 @@ function Headermid() {
           </div>
         </li>
         <li><AnchorTag variant='Header' href='/'>Pages<IoIosArrowDown /></AnchorTag>
-          <ul className='dropdown  absolute bg-white opacity-5 z-[9999] invisible py-[10px] pr-[80px] pl-[30px]'>
-            <li><AnchorTag variant='Headerh' href='/'> About Us</AnchorTag></li>
-            <li><AnchorTag variant='Headerh' href='/'>Services</AnchorTag></li>
-            <li><AnchorTag variant='Headerh' href='/'>Login</AnchorTag></li>
-            <li><AnchorTag variant='Headerh' href='/'>My Account</AnchorTag></li>
+          <ul className='dropdown border absolute bg-white opacity-5 z-[9999] invisible py-[10px] pr-[80px] pl-[30px]'>
+            <li><AnchorTag variant='Headerh' href='/about'> About Us</AnchorTag></li>
+            <li><AnchorTag variant='Headerh' href='/serivces'>Services</AnchorTag></li>
+            <li><AnchorTag variant='Headerh' href='/login'>Login</AnchorTag></li>
+            <li><AnchorTag variant='Headerh' href='/myaccount'>My Account</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/error'>Error 404</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Compare</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/privacy'>Privacy Policy</AnchorTag></li>

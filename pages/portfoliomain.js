@@ -3,7 +3,7 @@ import Headermain from '@/components/organisms/Headermain'
 import PortfolioAll from '@/components/organisms/portfolioAll'
 import React from 'react'
 
-function portfoliomain() {
+function Portfoliomain() {
   return (
     <div>
         <Headermain/>
@@ -12,4 +12,4 @@ function portfoliomain() {
   )
 }
 
-export default portfoliomain
+export default Portfoliomain

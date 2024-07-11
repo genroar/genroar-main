@@ -4,9 +4,13 @@ import Button from '../atoms/Button'
 function PortfolioCompany() {
   return (
     <div>
-        <div>
-            <Button variant='rectangle-5'>Company</Button>
-        </div>
+        <div className='w-[100%] flex flex-wrap'>
+        <PortProduct src='/assits/images/portfolio1.webp' />
+        <PortProduct src='/assits/images/portfolio1.webp' />
+        <PortProduct src='/assits/images/portfolio1.webp' />
+        <PortProduct src='/assits/images/portfolio1.webp' />
+        <PortProduct src='/assits/images/portfolio1.webp' />
+         </div>
     </div>
   )
 }
