@@ -6,7 +6,7 @@ import AnchorTag from "../atoms/anchorTag";
 
 function Item() {
   return (
-    <div className="relative">
+    <div className="relative z-[999]">
       <div class="cart-container w-[120px] peer">
         <button class="cart-button  rounded-[50px] py-[8px] px-[10px] border-[1px]  flex items-center gap-[10px] border-[#dbdbdb]  hover:text-[#ff6a28] hover:cursor-pointer	 ">
           <LuShoppingCart />{" "}
