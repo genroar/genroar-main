@@ -129,14 +129,12 @@ function Item() {
           <AnchorTag variant="CheckCart" href="/check">
             Checkout
           </AnchorTag>
-
+         </div>
+         </div>
+         </div>
         </div>
       </div>
-    </div>
-  );
   );
 }
-
-export default Item;
 
 export default Item;
