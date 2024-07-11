@@ -20,7 +20,6 @@ const Heading = ({ level, children }) => {
       case "7":
         return "text-[13px] leading-[24px] font-normal text-[#747474]";
       case "8":
-<<<<<<< HEAD
         return "text-[18px] leading-[20px] font-normal text-[#747474]";
       case "9":
         return "text-[15px] leading-[30px] font-normal text-[#747474]";
@@ -40,18 +39,6 @@ const Heading = ({ level, children }) => {
         return "text-[17px] leading-[26px] font-[400] text-[#747474]";
       case "17":
         return "text-[20px] leading-[18px] font-[700] text-[#242424]";
-=======
-        return "text-[18px] leading-[20px] text-normal text-[#747474]";
-      case "9":
-        return "text-[22px] leading-[22px] font-[500] text-normal text-[#212121]";
-      case "10":
-        return "text-[15px] text-medium text-customGray1";
-      case "11":
-        return "text-[13px] leading-[24px] text-normal text-[#747474] font-[700]";
-      case "12":
-        return "text-[13px] leading-[24px] text-normal text-[#242424] font-[500]";
-
->>>>>>> cf39f2083ee6d49b06a23727c63f70ab7795599e
 
       default:
         return "text-lg";
@@ -64,7 +51,7 @@ const Heading = ({ level, children }) => {
 };
 
 Heading.propTypes = {
-  level: PropTypes.oneOf(["1", "2", "3", "4", "5", "6" , "7" , "8" , "9 " , "10 " ," 11" ,"12 ","13" , "14" , "15 " , "16 " ," 17" ]).isRequired,
+  level: PropTypes.oneOf(["1", "2", "3", "4", "5", "6", "7", "8", "9 ", "10 ", " 11", "12 ", "13", "14", "15 ", "16 ", " 17"]).isRequired,
 };
 
 export default Heading;
