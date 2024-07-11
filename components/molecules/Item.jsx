@@ -20,8 +20,8 @@ function Item() {
           <div className="flex items-center gap-[30px]">
             <img src="/assits/images/pro3.jpg" alt="" />
             <div className="flex flex-col gap-[10px]">
-              <Heading level="10" children="Apple iPhone SE 16GB" />
-              <Heading level="10" children="1x $60.00" />
+              <Heading level="18" children="Apple iPhone SE 16GB" />
+              <Heading level="18" children="1x $60.00" />
             </div>
             <button
               className=" text-xl hover:-rotate-180 duration-[1s] cursor-pointer"
@@ -33,8 +33,8 @@ function Item() {
           <div className="flex items-center gap-[30px]">
             <img src="/assits/images/pro1.jpg" alt="" />
             <div className="flex flex-col gap-[10px]">
-              <Heading level="10" children="Apple iPhone SE 16GB" />
-              <Heading level="10" children="1x $60.00" />
+              <Heading level="18" children="Apple iPhone SE 16GB" />
+              <Heading level="18" children="1x $60.00" />
             </div>
             <button
               className=" text-xl hover:-rotate-180 duration-[1s] cursor-pointer"
