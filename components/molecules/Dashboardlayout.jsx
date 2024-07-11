@@ -10,7 +10,7 @@ const DashboardLayout = ({ children }) => {
                     <Nav />
                 </div>
                 <div className="w-[80%]">
-                    <main className="flex flex-col gap-[15px]">{children}</main>
+                    <main className="flex flex-col">{children}</main>
                 </div>
             </div>
         </Container>
