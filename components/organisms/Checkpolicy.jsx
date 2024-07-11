@@ -56,7 +56,7 @@ function Checkpolicy() {
                             <div className='text-[20px] flex items-center gap-[20px]'>
                                 <Label>
                                     <div className='flex gap-[10px]'>
-                                        <Input type="checkbox" variant="" />
+                                        <Input type="checkbox" variant="one" />
                                         <Heading level="5">Remember Me</Heading>
                                     </div>
                                 </Label>

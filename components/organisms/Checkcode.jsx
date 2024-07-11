@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect, useRef } from 'react';
 import AnchorTag from "../atoms/anchorTag"; // Assuming this is correctly imported
 import Container from "../atoms/Container";
