@@ -24,11 +24,15 @@ const Button = ({ href, children, variant, onClick }) => {
       break;
     case "shop-proButton":
       buttonStyle =
-        "bg-customgrays h-[40px] cursor-pointer  text-center w-[240px] rounded-[3px] py-[7px]  text-[15px] font-medium text-";
+        "bg-white h-[40px] flex justify-center items-center cursor-pointer block absolute bottom-[17px] ml-[10pxa] text-center w-[240px] rounded-[3px] py-[7px]  text-[15px] font-medium hover:text-[#ff6a28] text-[#747474] ";
       break;
     case "filter":
       buttonStyle =
+<<<<<<< HEAD
+        "bg-[#242424] hover:bg-[#ff6a28] h-[30px] cursor-pointer text-center w-[75px] ease-in-out duration-300 flex justify-center items-center uppercase rounded-[40px] block pt-[5px] text-[13px] font-medium  text-white";
+=======
         "bg-[#ff6a28] hover:bg-[#242424] h-[30px] py-[10px] cursor-pointer text-center w-[75px] ease-in-out duration-300 uppercase rounded-[40px] block pt-[5px] text-[13px] font-medium  text-white";
+>>>>>>> cf39f2083ee6d49b06a23727c63f70ab7795599e
       break;
     case "tl-radius":
       buttonStyle =
@@ -98,6 +102,28 @@ const Button = ({ href, children, variant, onClick }) => {
       buttonStyle =
         "bg-buttonGray h-[41px]  cursor-pointer text-center xl:w-[235px] lg:w-[235px] md:w-[235px] sm:w-[full] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
       break;
+<<<<<<< HEAD
+    case "MyAccount"://this button style you can use in myaccount all button in side div :)
+      buttonStyle =
+        "w-full bg-[#242424] py-[5px] px-[10px] flex items-start text-white cursor-pointer rounded-[3px] hover:bg-[#ff6a28] transition 0.3s ease-in";
+      break;
+    case "404"://text lekhtay jaen center khod he ho jay ga
+      buttonStyle =
+        "px-[20px] py-[10px] bg-[#ff6a28] text-white font-[600] hover:bg-[#242424] transition 0.3s ease-in";
+      break;
+    case "product":
+      buttonStyle =
+        "w-[150px] py-[5px] absolute  cursor-pointer bottom-[10px] bg-white font-[600] hover:text-[#ff6a28] ml-[20px] flex items-center justify-center transition 0.3s ease-in";
+      break;
+    case "shopnext":
+      buttonStyle =
+        "w-[30px] h-[30px] text-white flex items-center justify-center transition 0.3s ease-in";
+      break;
+
+
+
+=======
+>>>>>>> cf39f2083ee6d49b06a23727c63f70ab7795599e
     default:
       buttonStyle = "";
       break;
