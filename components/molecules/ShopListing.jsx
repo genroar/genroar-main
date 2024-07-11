@@ -24,9 +24,6 @@ const ShopListing = () => {
           <div>{activeTab === "shop2" && <Shop2 />}</div>
           <div className="mt-[-5px]">{activeTab === "shop3" && <Shop3 />}</div>
           <div className="mt-[-50px] rounded-[50px]">{activeTab === "shop4" && <Shop4 /> }</div>
-          <div className="mt-[-50px] rounded-[50px]">{activeTab === "shop4" && <Shop4 /> }</div>
-          <div className="mt-[-50px] rounded-[50px]">{activeTab === "shop4" && <Shop4 /> }</div>
-          <div className="mt-[-50px] rounded-[50px]">{activeTab === "shop4" && <Shop4 /> }</div>
         </div>
       </div>
       <div className="mt-[250px] mb-[5s0px]" >

@@ -39,6 +39,8 @@ const Heading = ({ level, children }) => {
         return "text-[17px] leading-[26px] font-[400] text-[#747474]";
       case "17":
         return "text-[20px] leading-[18px] font-[700] text-[#242424]";
+      case "18":
+        return "text-[15px] text-medium text-customGray1";
 
       default:
         return "text-lg";

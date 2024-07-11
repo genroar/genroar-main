@@ -60,10 +60,11 @@ function Headermid() {
           </div>
         </li>
         <li><AnchorTag variant='Header' href='/'>Pages<IoIosArrowDown /></AnchorTag>
-          <ul className='dropdown border absolute bg-white opacity-5 z-[9999] invisible py-[10px] pr-[80px] pl-[30px]'>
+          <ul className='dropdown  absolute bg-white opacity-5 z-[9999] invisible py-[10px] pr-[80px] pl-[30px]'>
             <li><AnchorTag variant='Headerh' href='/about'> About Us</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/serivces'>Services</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/login'>Login</AnchorTag></li>
+            <li><AnchorTag variant='Headerh' href='/'>Wishlist</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/myaccount'>My Account</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/error'>Error 404</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Compare</AnchorTag></li>
@@ -72,7 +73,7 @@ function Headermid() {
           </ul>
         </li>
         <li><AnchorTag variant='Header' href='/about'>About US</AnchorTag></li>
-        <li><AnchorTag variant='Header' href='/'>Contact Us</AnchorTag></li>
+        <li><AnchorTag variant='Header' href='/contact'>Contact Us</AnchorTag></li>
       </div>
       <div className=''>
         <Paragraph>Call Free Support: <AnchorTag variant='success'>01234567890</AnchorTag></Paragraph>
