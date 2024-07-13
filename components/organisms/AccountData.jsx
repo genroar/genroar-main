@@ -20,4 +20,4 @@ function AccountData() {
     )
 }
 
-export default AccountData
+export default AccountData;

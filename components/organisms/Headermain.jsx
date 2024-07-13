@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 import Logo from '../atoms/Logo'
 import SearchHeader from '../molecules/SearchHeader'
@@ -23,4 +25,4 @@ function Headermain() {
   )
 }
 
-export default Headermain
+export default Headermain;

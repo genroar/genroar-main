@@ -1,22 +1,21 @@
-import OrdersPage from '@/components/molecules/orderpage'
-import AccountData from "@/components/organisms/AccountData";
-import Dashboard from "@/components/organisms/Dashboard";
-import Footer from "@/components/organisms/Footer";
+"use client";
+
 import Headermain from "@/components/organisms/Headermain";
-import React from 'react'
+import AccountData from "@/components/organisms/AccountData";
+import OrderPage from '@/components/molecules/OrderPage';
+import Footer from "@/components/organisms/Footer";
 
-function order() {
+import React from 'react';
+
+function Order() {
   return (
-      <div>
-               
-          <Headermain />
-          <AccountData />
-          <OrdersPage/>
-
-          <Footer/>
-
+    <div>
+      <Headermain />
+      <AccountData />
+      <OrderPage />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default order
+export default Order;

@@ -2,7 +2,7 @@
 import DashboardLayout from "@/components/molecules/Dashboardlayout";
 
 
-const OrdersPage = () => {
+const OrderPage = () => {
     return (
         <div>
 
@@ -45,4 +45,4 @@ const OrdersPage = () => {
     );
 };
 
-export default OrdersPage;
+export default OrderPage;
