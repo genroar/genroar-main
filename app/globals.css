@@ -9,6 +9,13 @@ body {
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
 .shopeimage {
     z-index: 999;
     overflow: hidden;
@@ -69,10 +76,8 @@ ul.ant-pagination.css-dev-only-do-not-override-98ntnt {
 
 
 
-li:hover ul.dropdown {
-    visibility: visible;
-    opacity: 1;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+.shop:hover .shop-text {
+    color: rgb(255, 106, 40);
 }
 
 li:hover .dropdown2 {
@@ -84,9 +89,17 @@ li:hover .dropdown2 {
 .dropdown {
     transition: all 0.3s ease-out;
 }
+.shop:hover .circle {
+    background-color: rgb(255, 106, 40);
+    color: white;
+}
 
 .dropdown2 {
     transition: all 0.3s ease-out;
+}
+.product-catagory:hover h3 {
+    color: #ff6a28;
+    transition: 0.2s;
 }
 
 .swiper {
@@ -100,7 +113,22 @@ li:hover .dropdown2 {
     background: #fff;
 
     /* Center slide text vertically */
+.product-catagory:hover .circle {
+    color: white;
+    transition: 0.2s;
+    background-color: #ff6a28;
+}
+
+.grid.flex.w-\[100\%\].h-\[60px\].border.px-\[15px\].mt-\[16px\].flex.items-center.justify-between {
     display: flex;
+}
+
+
+
+ul.ant-pagination.css-dev-only-do-not-override-98ntnt {
+    display: flex;
+    width: 100%;
+    border: 1px solid #dbdada;
     justify-content: center;
     align-items: center;
 }
@@ -111,3 +139,29 @@ li:hover .dropdown2 {
     height: 100%;
     object-fit: cover;
 }
+    padding: 7px;
+}
+
+.outer-product:hover .orange-ng {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s;
+}
+
+.orange-ng {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s, visibility 0s 0.3s; /* visibility delay ensures it changes after opacity */
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import "@/app/globals.css"
 import PropTypes from "prop-types";
 
-const Button = ({ href, children, variant, onClick }) => {
+const   Button = ({ href, children, variant, type , onClick }) => {
   const [activeButton, setActiveButton] = useState(null);
 
   const handleButtonClick = (buttonName) => {
@@ -52,7 +52,7 @@ const Button = ({ href, children, variant, onClick }) => {
       break;
     case "rectangle-5":
       buttonStyle =
-        "h-[40px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28]  text-center w-[110px]  flex items-center justify-center  text-[14px] font-[500] text-[white] bg-[black] text-white hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300";
+        "h-[40px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center w-[110px]  flex items-center justify-center  text-[14px] font-[500] text-[#747474] border-none bg-white  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300";
       break;
     case "oval":
       buttonStyle =

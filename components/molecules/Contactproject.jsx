@@ -1,55 +1,68 @@
-import React from 'react'
-import Container from '../atoms/Container'
-import Heading from '../atoms/Heading'
-import Input from '../atoms/Input'
-import Label from '../atoms/Label'
-import Button from '../atoms/Button'
 
-function Contactproject() {
+import React, { useState } from "react";
+import Input from "../atoms/Input";
+import Label from "../atoms/Label";
+import Heading from "../atoms/Heading";
+import Button from "../atoms/Button";
+
+const Contactproject = () => {
+    const [Name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [subject, setsubject] = useState('')
+    const [message, setMessage] = useState('')
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log('data from inputs', Name);
+        console.log('data from inputs', email);
+        console.log('data from inputs', subject);
+        console.log('data from inputs', message);
+    }
+
     return (
+
         <div className='w-[100%]'>
-            <div className='py-[6%]'>
+            <div className='pt-[5%]'>
                 <Heading level='3'>Tell Us Your Project</Heading>
             </div>
-
-            <div className='pt-[20px]'>
-                <div className='font-[600] text-[14px] mb-[10px] text-[#242424]'>
-                    <Label>
-                        Your Name (required)
-                    </Label>
+            <form onSubmit={handleSubmit}>
+                <div className="pt-[15px]">
+                    <div className='font-[600] text-[14px] mb-[10px] text-[#242424]'>
+                        <Label>
+                            Your Name (required)
+                        </Label>                 </div>
+                    <Input  variant='five' placeholder="Name*" type="text" value={Name} onChange={(e) => setName(e.target.value)} />
                 </div>
-                <Input variant='five' type='text' placeholder='Name*' />
-            </div>
 
-            <div className='pt-[20px]'> 
-                <div className='font-[600] text-[14px] mb-[10px] text-[#242424]'>
-                    <Label>
-                        Your Email (required)
-                    </Label>
+                <div className="pt-[20px]">
+                    <div className='font-[600] text-[14px] mb-[10px] text-[#242424]'>
+                        <Label>
+                            Your Name (required)
+                        </Label>                 </div>
+                    <Input  variant="five" type="email" placeholder="Email*" value={email} onChange={(e) => setEmail(e.target.value)} />
                 </div>
-                <Input variant='five' type='email' placeholder='Email*' />
-            </div>
 
-            <div className='pt-[20px]'>
-                <div className='font-[600] text-[14px] mb-[10px] text-[#242424]'>
-                    <Label>
-                        Subject
-                    </Label>
+                <div className="pt-[20px]">
+                    <div className='font-[600] text-[14px] mb-[10px] text-[#242424]'>
+                        <Label>
+                            Your Name (required)
+                        </Label>                 </div>
+                    <Input  variant="five" type="text" placeholder="Subject*" value={subject} onChange={(e) => setsubject(e.target.value)} />
                 </div>
-                <Input variant='five' type='email' placeholder='Subject*' />
-            </div>
 
-            <div className='pt-[20px]'>
-                <div className='font-[600] text-[14px] mb-[10px] text-[#242424]'>
-                    <Label>
-                        Subject
-                    </Label>
+                <div className="pt-[20px]">
+                    <div className='font-[600] text-[14px] mb-[10px] text-[#242424]'>
+                        <Label>
+                            Your Name (required)
+                        </Label>                 </div>
+                    <textarea variant="five" type="text" placeholder=" Message*" value={message} onChange={(e) => setMessage(e.target.value)} />
                 </div>
-                <textarea name='mytext' placeholder='Message' className='h-[170px] w-[100%] text-[#747474] border-[#cacaca] p-[15px] text-[14px]   border-[1px] outline-none'></textarea>
-            </div>
-            <div className='pt-[6%]'>
-                <Button variant='contact'> send</Button>
-            </div>
+                <div className="pt-[6%]">
+        <button type="submit" className="bg-[#ff6a28] h-[40px] hover:bg-[#242424] hpver:text-white cursor-pointer font-[500] tex-[12px] text-center w-[140px] py-[12px] px-[30px]  text-white"        
+        >send</button>
+                </div>
+
+            </form>
         </div>
     )
 }

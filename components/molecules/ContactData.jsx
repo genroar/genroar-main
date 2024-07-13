@@ -12,14 +12,14 @@ function ContactData() {
     <div className=''>
         
             <div className=''>
-                <div className='py-[5%] '>
+                <div className='pt-[6%] '>
                     <Heading level='3'>Contact Us</Heading>
                 </div>
 
                     <div className=''>
                         <Paragraph>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium  <br /> lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram   anteposuerit litterarum formas human. qui sequitur mutationem consuetudium   lectorum.  Mirum est notare quam</Paragraph>
                     </div>
-                    <div className='mt-[15px]'>
+                    <div className='mt-[20px]'>
                      <hr />            
                     <div className='flex items-center gap-[20px] py-[10px]'> 
                     <FaAddressCard className='text-[#747474] text-[14px]' />
