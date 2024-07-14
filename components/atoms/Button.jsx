@@ -1,10 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-import "@/app/globals.css"
+import "../../app/globals.css"
+
 import PropTypes from "prop-types";
 
-const   Button = ({ href, children, variant, type , onClick }) => {
+const Button = ({ href, children, variant, type, onClick }) => {
   const [activeButton, setActiveButton] = useState(null);
 
   const handleButtonClick = (buttonName) => {

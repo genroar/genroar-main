@@ -10,12 +10,12 @@ import HomeMCollection from "@/components/organisms/HomeMCollection";
 
 function Index() {
   return (
-    <div className=' ' >
+    <div className='' >
         {/* <Shop /> */}
       
       
       <Headermain/>
-      <BannerSlider />
+      <BannerSlider/>
       <HomeWCollection />
       <HomeGameBanner />
       <HomeMCollection />
