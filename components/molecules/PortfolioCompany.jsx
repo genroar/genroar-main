@@ -6,10 +6,7 @@ function PortfolioCompany() {
     <div>
         <div className='w-[100%] flex flex-wrap'>
         <PortProduct src='/assits/images/portfolio1.webp' />
-        <PortProduct src='/assits/images/portfolio1.webp' />
-        <PortProduct src='/assits/images/portfolio1.webp' />
-        <PortProduct src='/assits/images/portfolio1.webp' />
-        <PortProduct src='/assits/images/portfolio1.webp' />
+        
          </div>
     </div>
   )
